@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <Name Value="egg"/>
+    <Type Value="RunAndDesignTime"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <OtherUnitFiles Value="Controls;Reports"/>
+        <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Files Count="8">
+      <Item1>
+        <Filename Value="Controls/EggCustomControl.pas"/>
+        <UnitName Value="EggCustomControl"/>
+      </Item1>
+      <Item2>
+        <Filename Value="EggStrUtils.pas"/>
+        <UnitName Value="EggStrUtils"/>
+      </Item2>
+      <Item3>
+        <Filename Value="EggDateUtils.pas"/>
+        <UnitName Value="EggDateUtils"/>
+      </Item3>
+      <Item4>
+        <Filename Value="EggFileUtils.pas"/>
+        <UnitName Value="EggFileUtils"/>
+      </Item4>
+      <Item5>
+        <Filename Value="EggPathUtils.pas"/>
+        <UnitName Value="EggPathUtils"/>
+      </Item5>
+      <Item6>
+        <Filename Value="EggEnvUtils.pas"/>
+        <UnitName Value="EggEnvUtils"/>
+      </Item6>
+      <Item7>
+        <Filename Value="Controls/EggActivityDiagram.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="EggActivityDiagram"/>
+      </Item7>
+      <Item8>
+        <Filename Value="EggGraphicUtils.pas"/>
+        <UnitName Value="EggGraphicUtils"/>
+      </Item8>
+    </Files>
+    <RequiredPkgs Count="3">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="LazUtils"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="FCL"/>
+      </Item3>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <CustomOptions Items="ExternHelp" Version="2">
+      <_ExternHelp Items="Count"/>
+    </CustomOptions>
+  </Package>
+</CONFIG>
