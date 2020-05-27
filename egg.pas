@@ -9,7 +9,8 @@ interface
 
 uses
   EggCustomControl, EggStrUtils, EggDateUtils, EggFileUtils, EggPathUtils, 
-  EggEnvUtils, EggActivityDiagram, EggGraphicUtils, LazarusPackageIntf;
+  EggEnvUtils, EggActivityDiagram, EggGraphicUtils, EggXMLUtils, 
+  LazarusPackageIntf;
 
 implementation
 

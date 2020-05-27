@@ -10,7 +10,7 @@
         <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
       </SearchPaths>
     </CompilerOptions>
-    <Files Count="8">
+    <Files Count="9">
       <Item1>
         <Filename Value="Controls/EggCustomControl.pas"/>
         <UnitName Value="EggCustomControl"/>
@@ -44,6 +44,10 @@
         <Filename Value="EggGraphicUtils.pas"/>
         <UnitName Value="EggGraphicUtils"/>
       </Item8>
+      <Item9>
+        <Filename Value="EggXMLUtils.pas"/>
+        <UnitName Value="EggXMLUtils"/>
+      </Item9>
     </Files>
     <RequiredPkgs Count="3">
       <Item1>
